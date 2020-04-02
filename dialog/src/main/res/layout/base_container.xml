@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fun.inaction.dialog.rclayout.RCRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rclayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/white_kydialog_root_view_color"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:id="@+id/kydialog_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/kydialog_content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/kydialog_footer_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+    </FrameLayout>
+</LinearLayout>
+</fun.inaction.dialog.rclayout.RCRelativeLayout>
