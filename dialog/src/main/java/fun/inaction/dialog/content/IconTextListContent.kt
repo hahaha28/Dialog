@@ -21,6 +21,11 @@ class IconTextListContent(private val parent: ViewGroup): ViewAdapter {
     private var dataList:List<Pair<Int,String>> = listOf()
 
     /**
+     * 列表点击事件
+     */
+    var onItemClickListener:(v:View,position:Int)->Unit = {v:View,p:Int->}
+
+    /**
      * RecyclerView
      */
     private val recyclerView: RecyclerView
@@ -42,6 +47,7 @@ class IconTextListContent(private val parent: ViewGroup): ViewAdapter {
     override fun getView(): View {
         val adapter = IconTextListAdapter(dataList,style)
         recyclerView.adapter = adapter
+        adapter.onItemClickListener = onItemClickListener
         return view
     }
 

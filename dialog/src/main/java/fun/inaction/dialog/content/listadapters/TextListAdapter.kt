@@ -33,9 +33,15 @@ class TextListAdapter(private var textList: List<String>, private var rightPosit
 
         var rightView : RightView //对勾
 
+        // 这两个View是用来填充空间的
+        val upperView: View
+        val bottomView: View
+
         init{
             textView = view.findViewById(R.id.textView)
             rightView = view.findViewById(R.id.rightView)
+            upperView = view.findViewById(R.id.upper)
+            bottomView = view.findViewById(R.id.bottom)
         }
     }
 
@@ -64,6 +70,17 @@ class TextListAdapter(private var textList: List<String>, private var rightPosit
             textStyle!!.color?.let { holder.textView.setTextColor(it) }
             textStyle!!.size?.let { holder.textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,it) }
             textStyle!!.gravity?.let { holder.textView.gravity = it }
+        }
+        // 设置上下两个View是否显示
+        if(position == 0){
+            holder.upperView.visibility = View.VISIBLE
+        }
+        if(position == textList.size-1){
+            holder.bottomView.visibility = View.VISIBLE
+        }
+        if(position !=0 && position != textList.size-1){
+            holder.upperView.visibility = View.GONE
+            holder.bottomView.visibility = View.GONE
         }
     }
 

@@ -5,7 +5,6 @@ import `fun`.inaction.dialog.content.TextContent
 import `fun`.inaction.dialog.footer.CommonFooter
 import `fun`.inaction.dialog.header.TextHeader
 import android.content.Context
-import android.view.Gravity
 import android.view.View
 
 class CommonDialog: CenterDialog {
@@ -41,14 +40,10 @@ class CommonDialog: CenterDialog {
         })
     }
 
-    constructor(context:Context,style:Int= STYLE_DEFAULT):super(context){
+    constructor(context:Context,style:Int= Style_Default):super(context){
         when(style){
-            STYLE_DEFAULT -> {
+            Style_Default -> {
 
-            }
-            STYLE_MATERIAL -> {
-                header.setTitleGravity(Gravity.LEFT)
-                content.setTextGravity(Gravity.LEFT)
             }
         }
     }
@@ -87,8 +82,12 @@ class CommonDialog: CenterDialog {
     }
 
     companion object{
-        const val STYLE_DEFAULT: Int = 0
-        const val STYLE_MATERIAL: Int = 1
+
+        /**
+         * 默认样式
+         */
+        const val Style_Default: Int = 0
+
     }
 
 }

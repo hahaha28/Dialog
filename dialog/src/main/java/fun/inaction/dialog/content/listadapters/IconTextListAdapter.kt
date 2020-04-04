@@ -27,9 +27,15 @@ class IconTextListAdapter(private val dataList:List<Pair<Int,String>>): Recycler
         val textView: TextView
         val icon: ImageView
 
+        // 这两个View是用来填充空间的
+        val upperView: View
+        val bottomView: View
+
         init {
             textView = view.findViewById(R.id.textView)
             icon = view.findViewById(R.id.icon)
+            upperView = view.findViewById(R.id.upper)
+            bottomView = view.findViewById(R.id.bottom)
 
         }
     }
@@ -54,16 +60,17 @@ class IconTextListAdapter(private val dataList:List<Pair<Int,String>>): Recycler
         style?.textSize?.let{holder.textView.setTextSize(TypedValue.COMPLEX_UNIT_SP,it)}
         style?.textColor?.let{holder.textView.setTextColor(it)}
 
-//        if(p == 0) {
-//            val c = ConstraintSet()
-//            val context = holder.view.context
-//            c.clone(holder.view as ConstraintLayout)
-//            c.clear(R.id.icon,ConstraintSet.TOP)
-////            c.applyTo(holder.view as ConstraintLayout)
-//            val m = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,32f,context.resources.displayMetrics)
-//            c.connect(R.id.icon, ConstraintSet.TOP, R.id.upperView, ConstraintSet.BOTTOM, m.toInt())
-//            c.applyTo(holder.view as ConstraintLayout)
-//        }
+        // 设置上下两个View是否显示
+        if(p == 0){
+            holder.upperView.visibility = View.VISIBLE
+        }
+        if(p == dataList.size-1){
+            holder.bottomView.visibility = View.VISIBLE
+        }
+        if(p !=0 && p != dataList.size-1){
+            holder.upperView.visibility = View.GONE
+            holder.bottomView.visibility = View.GONE
+        }
 
     }
 

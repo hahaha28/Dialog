@@ -35,7 +35,12 @@ class TextListDialog(context:Context, private val style:Int = Style_Default): Ce
      * @param rightPosition 对勾的位置，设为-1则不显示对勾
      */
     fun setData(textList:List<String>,rightPosition:Int=-1):TextListDialog{
-        content.setData(textList, rightPosition)
+
+        var rp = rightPosition
+        when(style){
+            Style_NoTitle_TextCenter -> rp = -1
+        }
+        content.setData(textList, rp)
         return this
     }
 
