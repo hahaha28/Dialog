@@ -23,6 +23,10 @@
 | 12   | BottomIconTextListDialog | Style_NoTitle                 | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-1.jpg" alt="img" width="500px" /> |
 | 13   | BottomIconTextListDialog | Style_TitleCenter             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-2.jpg" alt="img" width="500px" /> |
 
+![qr_code](screenshots/qr_code.png)
+
+扫描二维码下载App体验，或点击[这里](http://io.inaction.fun/static/Dialog-sample.apk)下载
+
 
 
 ## 导入
