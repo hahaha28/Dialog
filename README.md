@@ -8,19 +8,19 @@ Brief
 
 | 序号 | 类                       | Style                         | 效果图                                                       |
 | ---- | ------------------------ | ----------------------------- | ------------------------------------------------------------ |
-| 1    | CommonDialog             | -                             | <img src="screenShots/CommonDialog.jpg" alt="img" width="500px" /> |
-| 2    | TextListDialog           | -                             | <img src="screenShots/TextListDialog-0.jpg" alt="img" width="500px" /> |
-| 3    | TextListDialog           | Style_NoTitle                 | <img src="screenShots/TextListDialog-1.jpg" alt="img" width="500px" /> |
-| 4    | TextListDialog           | Style_NoTitle_TextCenter      | <img src="screenShots/TextListDialog-2.jpg" alt="img" width="500px" /> |
-| 5    | IconTextListDialog       | -                             | <img src="screenShots/IconTextListDialog-0.jpg" alt="img" width="500px" /> |
-| 6    | IconTextListDialog       | Style_NoTitle                 | <img src="screenShots/IconTextListDialog-1.jpg" alt="img" width="500px" /> |
-| 7    | IconTextListDialog       | Style_TitleCenter             | <img src="screenShots/IconTextListDialog-2.jpg" alt="img" width="500px" /> |
-| 8    | BottomTextListDialog     | -                             | <img src="screenShots/BottomTextListDialog-0.jpg" alt="img" width="500px" /> |
-| 9    | BottomTextListDialog     | Style_NoCancelButton          | <img src="screenShots/BottomTextListDialog-1.jpg" alt="img" width="500px" /> |
-| 10   | BottomTextListDialog     | Style_TextLeft_NoCancelButton | <img src="screenShots/BottomTextListDialog-2.jpg" alt="img" width="500px" /> |
-| 11   | BottomIconTextListDialog | -                             | <img src="screenShots/BottomIconTextListDialog-0.jpg" alt="img" width="500px" /> |
-| 12   | BottomIconTextListDialog | Style_NoTitle                 | <img src="screenShots/BottomIconTextListDialog-1.jpg" alt="img" width="500px" /> |
-| 13   | BottomIconTextListDialog | Style_TitleCenter             | <img src="screenShots/BottomIconTextListDialog-2.jpg" alt="img" width="500px" /> |
+| 1    | CommonDialog             | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/CommonDialog.jpg" alt="img" width="500px" /> |
+| 2    | TextListDialog           | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/TextListDialog-0.jpg" alt="img" width="500px" /> |
+| 3    | TextListDialog           | Style_NoTitle                 | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/TextListDialog-1.jpg" alt="img" width="500px" /> |
+| 4    | TextListDialog           | Style_NoTitle_TextCenter      | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/TextListDialog-2.jpg" alt="img" width="500px" /> |
+| 5    | IconTextListDialog       | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/IconTextListDialog-0.jpg" alt="img" width="500px" /> |
+| 6    | IconTextListDialog       | Style_NoTitle                 | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/IconTextListDialog-1.jpg" alt="img" width="500px" /> |
+| 7    | IconTextListDialog       | Style_TitleCenter             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/IconTextListDialog-2.jpg" alt="img" width="500px" /> |
+| 8    | BottomTextListDialog     | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomTextListDialog-0.jpg" alt="img" width="500px" /> |
+| 9    | BottomTextListDialog     | Style_NoCancelButton          | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomTextListDialog-1.jpg" alt="img" width="500px" /> |
+| 10   | BottomTextListDialog     | Style_TextLeft_NoCancelButton | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomTextListDialog-2.jpg" alt="img" width="500px" /> |
+| 11   | BottomIconTextListDialog | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-0.jpg" alt="img" width="500px" /> |
+| 12   | BottomIconTextListDialog | Style_NoTitle                 | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-1.jpg" alt="img" width="500px" /> |
+| 13   | BottomIconTextListDialog | Style_TitleCenter             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-2.jpg" alt="img" width="500px" /> |
 
 
 
