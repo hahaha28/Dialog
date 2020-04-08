@@ -2,9 +2,9 @@
 <resources>
     <color name="white_kydialog_root_view_color">#ffffff</color>
     
-    <color name="black_kydialog_text_dark">#323232</color>
+    <color name="black_kydialog_text_dark">#34495e</color>
     <color name="black_kydialog_text_light">#989898</color>
-    <color name="dialog_black_text_normal">#666666</color>
+    <color name="dialog_black_text_normal">#34495e</color>
     <color name="gray_kydialog_split_line">#F0F0F0</color>
     <color name="gray_kydialog_text_confirm">#576C91</color>
     <color name="blue_kydialog_text_confirm">#2186FA</color>

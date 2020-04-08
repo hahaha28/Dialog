@@ -29,6 +29,7 @@
         android:layout_marginRight="32dp"
         android:gravity="center_vertical"
         android:text="TextView"
+        android:textColor="@color/dialog_black_text_normal"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/icon"
         app:layout_constraintEnd_toEndOf="parent"
