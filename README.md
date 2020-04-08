@@ -1,6 +1,7 @@
 # Dialog
 
-Brief
+[![](https://jitpack.io/v/hahaha28/Dialog.svg)](https://jitpack.io/#hahaha28/Dialog)
+
 
 
 
@@ -21,6 +22,31 @@ Brief
 | 11   | BottomIconTextListDialog | -                             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-0.jpg" alt="img" width="500px" /> |
 | 12   | BottomIconTextListDialog | Style_NoTitle                 | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-1.jpg" alt="img" width="500px" /> |
 | 13   | BottomIconTextListDialog | Style_TitleCenter             | <img src="https://raw.githubusercontent.com/hahaha28/Dialog/master/screenshots/BottomIconTextListDialog-2.jpg" alt="img" width="500px" /> |
+
+
+
+## 导入
+
+在整个工程的`build.gradle`添加仓库：
+
+```groovy
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+添加依赖
+
+```groovy
+	dependencies {
+	        implementation 'com.github.hahaha28:Dialog:1.0.0'
+	}
+```
+
+
 
 
 
