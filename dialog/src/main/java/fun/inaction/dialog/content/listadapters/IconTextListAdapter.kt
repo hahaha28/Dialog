@@ -12,14 +12,15 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.constraintlayout.widget.ConstraintSet
 import androidx.core.view.marginTop
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 
-class IconTextListAdapter(private val dataList:List<Pair<Int,String>>): RecyclerView.Adapter<IconTextListAdapter.ViewHolder>() {
+class IconTextListAdapter(private val dataList:List<Pair<String,String>>): RecyclerView.Adapter<IconTextListAdapter.ViewHolder>() {
 
     var onItemClickListener: (v:View,position:Int)->Unit = {v:View,p:Int->}
 
     var style: Style? = null
 
-    constructor(dataList: List<Pair<Int, String>>,style:Style):this(dataList){
+    constructor(dataList: List<Pair<String, String>>,style:Style):this(dataList){
         this.style = style
     }
 
@@ -53,7 +54,10 @@ class IconTextListAdapter(private val dataList:List<Pair<Int,String>>): Recycler
     }
 
     override fun onBindViewHolder(holder: ViewHolder, p: Int){
-        holder.icon.setImageResource(dataList[p].first)
+//        holder.icon.setImageResource(dataList[p].first)
+        Glide.with(holder.icon)
+            .load(dataList[p].first)
+            .into(holder.icon)
         holder.textView.text = dataList[p].second
         holder.textView
 

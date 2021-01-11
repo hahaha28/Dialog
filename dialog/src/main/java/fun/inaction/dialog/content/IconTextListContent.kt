@@ -18,7 +18,7 @@ class IconTextListContent(private val parent: ViewGroup): ViewAdapter {
     /**
      * 列表的数据，第一个为图标的id，第二个为文字
      */
-    private var dataList:List<Pair<Int,String>> = listOf()
+    private var dataList:List<Pair<String,String>> = listOf()
 
     /**
      * 列表点击事件
@@ -56,7 +56,7 @@ class IconTextListContent(private val parent: ViewGroup): ViewAdapter {
      * list集合中每一项是一个Pair
      * Pair的第一项是图片的id，第二项是显示的字符串
      */
-    fun setData(list:List<Pair<Int,String>>){
+    fun setData(list:List<Pair<String,String>>){
         dataList = list
     }
 
